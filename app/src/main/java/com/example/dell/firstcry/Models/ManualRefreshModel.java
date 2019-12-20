@@ -7,6 +7,7 @@ import com.example.dell.firstcry.Objects.BannerResponse;
 import com.example.dell.firstcry.Objects.InfoResponse;
 import com.example.dell.firstcry.Objects.PostResponse;
 import com.example.dell.firstcry.RestApi.RetrofitClient;
+import com.example.dell.firstcry.RestApi.RetrofitClient2;
 import com.example.dell.firstcry.Static;
 import java.util.List;
 import retrofit2.Call;
@@ -62,7 +63,7 @@ public class ManualRefreshModel {
         });
 
         //INFO
-        Call<List<InfoResponse>> call3 = RetrofitClient.getInstance().getApi()
+        Call<List<InfoResponse>> call3 = RetrofitClient2.getInstance().getApi()
                 .rest_get_info();//"Bearer "+ token
         call3.enqueue(new Callback<List<InfoResponse>>() {
             @Override

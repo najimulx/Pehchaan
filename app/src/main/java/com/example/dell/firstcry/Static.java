@@ -11,8 +11,8 @@ import java.util.List;
 public class Static {
 
     public static SharedPreferences SP = null;
-    public static String REST_BASE_URL = "https://scrapeschema.herokuapp.com/";
-    //public static String REST_BASE_URL = "http://10.2.89.156:8080/";
+    public static String REST_BASE_URL = "https://pehchaansi.herokuapp.com/";
+    public static String REST_BASE_URL2 = "http://scrapeschema.herokuapp.com/";
     public static String TOKEN = null;
     public static List<BannerResponse> BANNER_OBJECT_LIST = null;
     public static List<PostResponse> POST_OBJECT_LIST = null;
