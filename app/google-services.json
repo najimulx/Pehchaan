@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "269773802476",
+    "firebase_url": "https://pehchaan-fadd5.firebaseio.com",
+    "project_id": "pehchaan-fadd5",
+    "storage_bucket": "pehchaan-fadd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269773802476:android:74ade2ad28b745cd100ec9",
+        "android_client_info": {
+          "package_name": "com.example.dell.firstcry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269773802476-9koa8q65jhbseo1lc414a800j8jmtims.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZvullsY1uxJOP7CoZzm_lhaznVJ6_u6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269773802476-9koa8q65jhbseo1lc414a800j8jmtims.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
